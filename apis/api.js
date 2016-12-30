@@ -45,6 +45,11 @@ catch(err){
 // }
 // });
 
+
+router.get('/',function(req, res){
+    res.redirect("login");
+});
+
 router.get('/login',function(req, res){
     // console.log(req.headers);
 
